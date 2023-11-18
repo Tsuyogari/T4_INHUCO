@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #b3e0ff, #66ccff);
+}
+main, .story {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.story {
+    border-radius: 15px;
+}
+header, #startButton {
+    background-color: #8e44ad; /* Púrpura */
+}
+
+#startButton:hover {
+    background-color: #9b59b6; /* Púrpura más claro al pasar el mouse */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.story {
+    animation: fadeIn 1s ease-in-out;
+}
